@@ -6,7 +6,7 @@ This is the README for my extension "Stellaris Mod Language Support".
 
 Only provide basic syntax highlight at present.
 
-![](example.png)
+![example.png](https://raw.githubusercontent.com/Neoteus/stellaris-mod-language/master/example.png)
 
 ## Requirements
 

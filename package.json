@@ -1,8 +1,10 @@
 {
-    "name": "stellaris_mod_language",
+    "name": "stellaris-mod-language",
     "displayName": "Stellaris Mod Language",
     "description": "Provide language support for Stellaris Mod.",
     "version": "0.0.1",
+    "publisher": "Nepteus",
+    "repository": "https://github.com/Neoteus/stellaris-mod-language",
     "engines": {
         "vscode": "^1.59.0"
     },
