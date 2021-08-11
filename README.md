@@ -18,7 +18,7 @@ None.
 
 ## Known Issues
 
-None.
+Since the extension of mod scripts is “.txt”, you may need to manually change the language mode to **Stellaris Mod**.
 
 ## Release Notes
 
