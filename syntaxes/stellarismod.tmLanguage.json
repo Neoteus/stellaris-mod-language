@@ -1,0 +1,54 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Stellaris Mod",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#numeric"
+		},
+		{
+			"include": "#comment"
+		},
+		{
+			"name": "variable.other.constant",
+			"match": "\\b(NOT|OR|NOR)\\b"
+		},
+		{
+			"name": "constant.language.stellarismod",
+			"match": "\\b(yes|no)\\b"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.stellarismod",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.stellarismod",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.stellarismod",
+					"match": "\\\\."
+				}
+			]
+		},
+		"numeric": {
+			"name": "constant.numeric.stellarismod",
+			"match": "\\b[0-9]+\\.?[0-9]*\\b"
+		},
+		"comment": {
+			"name": "comment.line.stellarismod",
+			"match": "#.*"
+		}
+	},
+	"scopeName": "source.mod"
+}

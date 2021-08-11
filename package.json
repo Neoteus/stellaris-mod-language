@@ -1,0 +1,25 @@
+{
+    "name": "stellaris_mod_language",
+    "displayName": "Stellaris Mod Language",
+    "description": "Provide language support for Stellaris Mod.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "stellarismod",
+            "aliases": ["Stellaris Mod", "stellarismod"],
+            "extensions": [".mod", ".txt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "stellarismod",
+            "scopeName": "source.mod",
+            "path": "./syntaxes/stellarismod.tmLanguage.json"
+        }]
+    }
+}
